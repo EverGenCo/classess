@@ -1,0 +1,39 @@
+Ferry
+-(3P) Price Per Person: 18;
+-Page Look
+ -Title: Car Ferry Tickets;
+ -Image: ferry;
+ -Text Input: Number of Tickets;
+ -Selector: To Cape Marie, To Star Island;
+ -Button: Compute Cost;
+ -Text: (Static from amount of tickets);
+ -Button: Pay Now;
+Volleyball Tickets
+-(3PA) Price Per Person: 18;
+-Page Look
+ -Title: Volleyball Tickets
+ -Text Input: Number of Tickets;
+ -Selector: Friday Afternoon, Friday Night;
+ -Inner Layout
+  -Inner Layout
+   -Button: Compute Cost;
+   -Text: (static from amount of tickets);
+  -Image: volleyball
+-Concert
+ -(3PA) Price Per Person Adult: 15;
+ -(3PMa) Price Per Person Matinee: 14;
+ -(3PMb) Price Per Person Military: 13;
+ -PageA Look
+  -Title: Concert Tickets;
+  -Inner Layout
+   -Text: Number of Adults;
+   -Text Input: Number of adults;
+  -Inner Layout
+   -Text: Number of Matinee;
+   -Text Input: Number of children (-16);
+  -Inner Layout
+   -Text: Number of Military;
+   -Text input Number of military attendents;
+  -Button: Buy Tickets;
+ -PageB Look
+  -Text: The Price is (Static number from ticket amount);
